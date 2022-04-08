@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become_user: azureuser
+  vars:
+    file: group_vars/all.yml
+  roles:
+    - aro

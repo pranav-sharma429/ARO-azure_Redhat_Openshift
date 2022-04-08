@@ -1,0 +1,18 @@
+---
+aro_rg: openshiftrg
+aro_location: eastasia
+aro_vnet: openshiftvnet
+cluster_name: kyndrylocp4xcluster
+master_size: Standard_D8s_v3
+worker_size: Standard_D4s_v3
+worker_count: 3
+disk_size: 128
+aro_master_subnet: ocpmastersubnet
+aro_worker_subnet: ocpworkersubnet
+#master_subnet_id: "master-subnet-{{ cluster_name + '-'+ aro_rg }}"
+#worker_subnet_id: "worker-subnet-{{ cluster_name + '-'+ aro_rg }}"
+#client_id: b9079770-01a1-4747-9318-22c0135255d6
+#client_secret: z2T3TaFT492ViX~WgXc-wlEUmR7DDcI1cS
+
+
+
